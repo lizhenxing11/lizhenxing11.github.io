@@ -32,7 +32,7 @@
 
 
 
-  <meta name="keywords" content="Vue,css," />
+  <meta name="keywords" content="Vue,element-ui," />
 
 
 
@@ -43,19 +43,19 @@
   <link rel="shorticon icon" type="image/x-icon" href="/favicon.ico?v=0.4.5.1" />
 
 
-<meta name="description" content="在src中直接引用一般把static文件放在src同级,服务器入口index文件也在src同级,而生成的img标签在index文件里面显示.所以只需要把路径设置成相对于index文件的相对路径就可以了1&amp;lt;img src=&amp;quot;static/images/logo.jpg&amp;quot; alt=&amp;quot;&amp;quot;&amp;gt;  在css中引用图片的路径问题最开始我也是按照src的思路把路">
-<meta name="keywords" content="Vue,css">
+<meta name="description" content="开发环境1.安装webpack1npm install -g webpack 2.安装 vue-cli1npm install -g vue-cli 3.只用vue-cli创建一个项目1vue init webpack project-name 4.安装项目依赖123cd project-name    //进入项目目录npm install        //安装项目依赖npm run dev">
+<meta name="keywords" content="Vue,element-ui">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Vue.js组件在使用图片的路径问题">
-<meta property="og:url" content="http://zhenxingli.club/2016/04/05/我的博客/index.html">
+<meta property="og:title" content="element-ui使用指南">
+<meta property="og:url" content="http://zhenxingli.club/2017/05/08/element-ui使用指南/index.html">
 <meta property="og:site_name" content="李振兴&#39;s blog">
-<meta property="og:description" content="在src中直接引用一般把static文件放在src同级,服务器入口index文件也在src同级,而生成的img标签在index文件里面显示.所以只需要把路径设置成相对于index文件的相对路径就可以了1&amp;lt;img src=&amp;quot;static/images/logo.jpg&amp;quot; alt=&amp;quot;&amp;quot;&amp;gt;  在css中引用图片的路径问题最开始我也是按照src的思路把路">
-<meta property="og:image" content="http://zhenxingli.club/images/logo.jpg">
-<meta property="og:updated_time" content="2017-05-08T10:43:29.086Z">
+<meta property="og:description" content="开发环境1.安装webpack1npm install -g webpack 2.安装 vue-cli1npm install -g vue-cli 3.只用vue-cli创建一个项目1vue init webpack project-name 4.安装项目依赖123cd project-name    //进入项目目录npm install        //安装项目依赖npm run dev">
+<meta property="og:image" content="http://img.blog.csdn.net/20161103174703198">
+<meta property="og:updated_time" content="2017-05-08T10:56:24.337Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Vue.js组件在使用图片的路径问题">
-<meta name="twitter:description" content="在src中直接引用一般把static文件放在src同级,服务器入口index文件也在src同级,而生成的img标签在index文件里面显示.所以只需要把路径设置成相对于index文件的相对路径就可以了1&amp;lt;img src=&amp;quot;static/images/logo.jpg&amp;quot; alt=&amp;quot;&amp;quot;&amp;gt;  在css中引用图片的路径问题最开始我也是按照src的思路把路">
-<meta name="twitter:image" content="http://zhenxingli.club/images/logo.jpg">
+<meta name="twitter:title" content="element-ui使用指南">
+<meta name="twitter:description" content="开发环境1.安装webpack1npm install -g webpack 2.安装 vue-cli1npm install -g vue-cli 3.只用vue-cli创建一个项目1vue init webpack project-name 4.安装项目依赖123cd project-name    //进入项目目录npm install        //安装项目依赖npm run dev">
+<meta name="twitter:image" content="http://img.blog.csdn.net/20161103174703198">
 
 
 <script type="text/javascript" id="hexo.configuration">
@@ -65,7 +65,7 @@
   };
 </script>
 
-  <title> Vue.js组件在使用图片的路径问题 | 李振兴's blog </title>
+  <title> element-ui使用指南 | 李振兴's blog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="en">
@@ -222,7 +222,7 @@
           
           
             
-              Vue.js组件在使用图片的路径问题
+              element-ui使用指南
             
           
         </h1>
@@ -231,8 +231,8 @@
       <div class="post-meta">
         <span class="post-time">
           Posted on
-          <time itemprop="dateCreated" datetime="2016-04-05T14:45:23+08:00" content="2016-04-05">
-            2016-04-05
+          <time itemprop="dateCreated" datetime="2017-05-08T18:25:12+08:00" content="2017-05-08">
+            2017-05-08
           </time>
         </span>
 
@@ -241,8 +241,8 @@
             &nbsp; | &nbsp; In
             
               <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                <a href="/categories/Vue/" itemprop="url" rel="index">
-                  <span itemprop="name">Vue</span>
+                <a href="/categories/使用教程/" itemprop="url" rel="index">
+                  <span itemprop="name">使用教程</span>
                 </a>
               </span>
 
@@ -257,8 +257,8 @@
           
             <span class="post-comments-count">
             &nbsp; | &nbsp;
-            <a href="/2016/04/05/我的博客/#comments" itemprop="discussionUrl">
-              <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2016/04/05/我的博客/" itemprop="commentsCount"></span>
+            <a href="/2017/05/08/element-ui使用指南/#comments" itemprop="discussionUrl">
+              <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/05/08/element-ui使用指南/" itemprop="commentsCount"></span>
             </a>
           </span>
           
@@ -272,12 +272,17 @@
       
 
       
-        <span itemprop="articleBody"><h3 id="在src中直接引用"><a href="#在src中直接引用" class="headerlink" title="在src中直接引用"></a>在src中直接引用</h3><p>一般把static文件放在src同级,服务器入口index文件也在src同级,而生成的img标签在index文件里面显示.<br>所以只需要把路径设置成相对于index文件的相对路径就可以了<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;img src=&quot;static/images/logo.jpg&quot; alt=&quot;&quot;&gt;</div></pre></td></tr></table></figure></p>
-<p><img src="/images/logo.jpg" alt="图片"></p>
-<h3 id="在css中引用图片的路径问题"><a href="#在css中引用图片的路径问题" class="headerlink" title="在css中引用图片的路径问题"></a>在css中引用图片的路径问题</h3><p>最开始我也是按照src的思路把路径写成相对于index文件的路径,但是发现不可以会找不到</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">.bg&#123;</div><div class="line">    background-img:url(&quot;static/images/bg.jpg&quot;)</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>后来我逐渐发现在url前加一个/就可以正常使用</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">.bg&#123;</div><div class="line">    background-img:url(&quot;/static/images/bg.jpg&quot;)</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+        <span itemprop="articleBody"><h3 id="开发环境"><a href="#开发环境" class="headerlink" title="开发环境"></a>开发环境</h3><p>1.安装webpack<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install -g webpack</div></pre></td></tr></table></figure></p>
+<p>2.安装 vue-cli<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install -g vue-cli</div></pre></td></tr></table></figure></p>
+<p>3.只用vue-cli创建一个项目<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vue init webpack project-name</div></pre></td></tr></table></figure></p>
+<p>4.安装项目依赖<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">cd project-name    //进入项目目录</div><div class="line">npm install        //安装项目依赖</div><div class="line">npm run dev        //运行项目</div></pre></td></tr></table></figure></p>
+<h3 id="搭建开发环境"><a href="#搭建开发环境" class="headerlink" title="搭建开发环境"></a>搭建开发环境</h3><p>使用element-ui 官方文档中有详细的模板信息,如果不想折腾的话就用他吧!</p>
+<h3 id="安装element-ui"><a href="#安装element-ui" class="headerlink" title="安装element-ui"></a>安装element-ui</h3><p>第一步，我们成功安装了项目模板，接下来，我们需要安装element-ui到项目下。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm i element-ui@next -D</div></pre></td></tr></table></figure></p>
+<p>开始使用</p>
+<p>接下来我们就可以参照 Element-UI 的官方文档上手开发了。<br>例子</p>
+<p>我们参照官方的按钮组件使用说明，在项目模板的基础上做一个按钮的例子。其它文件不需要改动，只修改App.vue文件的内容。代码如下：<br>App.vue<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div></pre></td><td class="code"><pre><div class="line">&lt;template&gt;</div><div class="line">  &lt;div id=&quot;app&quot;&gt;</div><div class="line">    &lt;img src=&quot;./assets/logo.png&quot;&gt;</div><div class="line">    &lt;h1&gt;&#123;&#123; msg &#125;&#125;&lt;/h1&gt;</div><div class="line">    &lt;el-button @click.native=&quot;startHacking&quot;&gt;Let&apos;s do it&lt;/el-button&gt;</div><div class="line">    &lt;div class=&quot;block&quot;&gt;</div><div class="line">    &lt;span class=&quot;demonstration&quot;&gt;显示默认颜色&lt;/span&gt;</div><div class="line">    &lt;span class=&quot;wrapper&quot;&gt;</div><div class="line">    &lt;el-button type=&quot;success&quot;&gt;成功按钮&lt;/el-button&gt;</div><div class="line">    &lt;el-button type=&quot;warning&quot;&gt;警告按钮&lt;/el-button&gt;</div><div class="line">    &lt;el-button type=&quot;danger&quot;&gt;危险按钮&lt;/el-button&gt;</div><div class="line">    &lt;el-button type=&quot;info&quot;&gt;信息按钮&lt;/el-button&gt;</div><div class="line">    &lt;/span&gt;</div><div class="line">    &lt;/div&gt;</div><div class="line">    &lt;br/&gt;</div><div class="line">    &lt;div class=&quot;block&quot;&gt;</div><div class="line">      &lt;span class=&quot;demonstration&quot;&gt;hover 显示颜色&lt;/span&gt;</div><div class="line">    &lt;span class=&quot;wrapper&quot;&gt;</div><div class="line">    &lt;el-button :plain=&quot;true&quot; type=&quot;success&quot;&gt;成功按钮&lt;/el-button&gt;</div><div class="line">    &lt;el-button :plain=&quot;true&quot; type=&quot;warning&quot;&gt;警告按钮&lt;/el-button&gt;</div><div class="line">    &lt;el-button :plain=&quot;true&quot; type=&quot;danger&quot;&gt;危险按钮&lt;/el-button&gt;</div><div class="line">    &lt;el-button :plain=&quot;true&quot; type=&quot;info&quot;&gt;信息按钮&lt;/el-button&gt;</div><div class="line">    &lt;/span&gt;</div><div class="line">    &lt;/div&gt;</div><div class="line">  &lt;/div&gt;</div><div class="line">&lt;/template&gt;</div><div class="line">&lt;script&gt;</div><div class="line">export default &#123;</div><div class="line">  data () &#123;</div><div class="line">    return &#123;</div><div class="line">      msg: &apos;Use Vue 2.0 Today!&apos;</div><div class="line">    &#125;</div><div class="line">  &#125;,</div><div class="line"></div><div class="line">  methods: &#123;</div><div class="line">    startHacking () &#123;</div><div class="line">      this.$notify(&#123;</div><div class="line">        title: &apos;It Works&apos;,</div><div class="line">        message: &apos;We have laid the groundwork for you. Now it\&apos;s your time to build something epic!&apos;,</div><div class="line">        duration: 6000</div><div class="line">      &#125;)</div><div class="line">    &#125;</div><div class="line">  &#125;</div><div class="line">&#125;</div><div class="line">&lt;/script&gt;</div><div class="line"></div><div class="line">&lt;style&gt;</div><div class="line">body &#123;</div><div class="line">  font-family: Helvetica, sans-serif;</div><div class="line">&#125;</div><div class="line">&lt;/style&gt;</div></pre></td></tr></table></figure></p>
+<p>效果如下图所示：</p>
+<p><img src="http://img.blog.csdn.net/20161103174703198" alt="demo"></p>
 </span>
       
     </div>
@@ -288,7 +293,7 @@
           
             <a href="/tags/Vue/" rel="tag">#Vue</a>
           
-            <a href="/tags/css/" rel="tag">#css</a>
+            <a href="/tags/element-ui/" rel="tag">#element-ui</a>
           
         </div>
       
@@ -297,13 +302,11 @@
         <div class="post-nav">
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/05/08/element-ui使用指南/" rel="prev">element-ui使用指南</a>
-            
           </div>
 
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/04/02/我的第一个博客/" rel="next">我的第一个博客</a>
+              <a href="/2016/04/05/我的博客/" rel="next">Vue.js组件在使用图片的路径问题</a>
             
           </div>
         </div>
@@ -568,7 +571,7 @@
           <div class="post-toc">
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#在src中直接引用"><span class="nav-number">1.</span> <span class="nav-text">在src中直接引用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#在css中引用图片的路径问题"><span class="nav-number">2.</span> <span class="nav-text">在css中引用图片的路径问题</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#开发环境"><span class="nav-number">1.</span> <span class="nav-text">开发环境</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#搭建开发环境"><span class="nav-number">2.</span> <span class="nav-text">搭建开发环境</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装element-ui"><span class="nav-number">3.</span> <span class="nav-text">安装element-ui</span></a></li></ol></div>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator"></div>
@@ -624,9 +627,9 @@
 
     <script type="text/javascript">
       var disqus_shortname = 'xxx';
-      var disqus_identifier = '2016/04/05/我的博客/';
-      var disqus_title = 'Vue.js组件在使用图片的路径问题';
-      var disqus_url = 'http://zhenxingli.club/2016/04/05/我的博客/';
+      var disqus_identifier = '2017/05/08/element-ui使用指南/';
+      var disqus_title = 'element-ui使用指南';
+      var disqus_url = 'http://zhenxingli.club/2017/05/08/element-ui使用指南/';
 
       function run_disqus_script(disqus_script){
         var dsq = document.createElement('script');
